@@ -30,5 +30,5 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
-  gem 'parallel'
+  gem 'parallel', :git => 'git://github.com/grosser/parallel.git', :ref => '555eb'
 end
